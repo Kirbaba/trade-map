@@ -1,0 +1,427 @@
+hr {
+    border: none; /* Убираем границу для браузера Firefox */
+    color: red; /* Цвет линии для остальных браузеров */
+    background-color: #eeeeee; /* Цвет линии для браузера Firefox и Opera */
+    height: 3px; /* Толщина линии */
+   }
+
+html {
+  background: url('../gfx/bg.jpg')no-repeat;
+  background-attachment:fixed;
+  width: 100%;
+  height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+@font-face {
+    font-family: 'KlavikaRegular';
+    src: url('../fonts/klavika-regular-webfont.eot');
+    src: url('../fonts/klavika-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/klavika-regular-webfont.woff') format('woff'),
+         url('../fonts/klavika-regular-webfont.ttf') format('truetype'),
+         url('../fonts/klavika-regular-webfont.svg#KlavikaRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'KlavikaBold';
+    src: url('../fonts/klavika-bold-webfont.eot');
+    src: url('../fonts/klavika-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/klavika-bold-webfont.woff') format('woff'),
+    url('../fonts/klavika-bold-webfont.ttf') format('truetype'),
+    url('../fonts/klavika-bold-webfont.svg#KlavikaBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+} 
+
+
+
+#content
+	{
+	overflow:hidden;
+	width:auto;
+	max-widht: 90%;
+	max-height:760px;
+	height:auto;
+	display:block;
+	text-align:center;
+	position:relative;
+	margin-top:20px;
+	vertical-align: top;
+	
+	}
+
+.list{
+max-width:30%;
+min-width:20%;
+height:auto;
+display:inline-block;
+vertical-align: top;
+text-align:right;
+padding-right: 30px;
+
+}
+
+.table{
+	font-family: 'KlavikaRegular';
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	color: #fff;
+	padding: 5px;
+	text-align:center;
+	border-style: solid;
+	border-color: #000;
+	border-width: 1px;
+	font-size: 0.9em;
+	min-width:406px;
+	td-height: 20px;
+	z-index:1000;
+}
+
+
+.plan{
+width:35%;
+height:617 px;
+display:inline-block;
+vertical-align: top;
+width:525px;
+height:auto;
+overflow: hidden;
+}
+
+.buttons{
+font-family: 'KlavikaRegular';
+max-width:30%;
+min-width:20%;
+height:auto;
+display:inline-block;
+padding-left: 30px;
+text-align:left;
+vertical-align: top;
+}
+
+.buttons div
+ {
+	font-family: 'KlavikaRegular';
+
+    height:50px;
+    width:260px;
+	vertical-align: middle;
+}
+
+.buttons_text
+ {
+	 font-family: 'KlavikaRegular';
+	display: table-cell;
+    height:50px;
+    width:260px;
+	margin-left:80px;
+	margin-top:15px;
+	vertical-align: middle;
+}
+
+.author {
+color: #358ac4;
+}
+
+.stamp {
+position: relative;	
+overflow:visible;
+background-size: contain;
+top:5px;
+left:175px;
+width:100px;
+min-width:120px;
+height:100px;
+min-height:120px;
+background: url('../gfx/stamp.png')no-repeat;
+}
+
+.header_1 {
+	position:relative;
+	font-family: 'KlavikaRegular';
+    background-color:white;
+	height: 50px;      
+    width: auto;
+	vertical-align: middle;
+	
+	margin-top:-100px;
+	margin-left:20px;
+	margin-right:20px;
+	margin-bottom: -70px;
+	
+	padding-top:100px;
+	
+	behavior: url('border-radius.htc');
+	
+	-webkit-border-radius: 60px;
+	-moz-border-radius: 60px;
+	border-radius: 60px;
+    text-align: center;
+	
+	color: #767676;
+	font-size: 1.7em;
+	
+	border-style: solid;
+	border-color: #000;
+	border-width: 1px;
+	z-index: 998;  
+}
+
+.header_2 {
+	position:relative;
+	font-family: 'KlavikaRegular';
+    background-color:#efefef;
+	height: 100px;      
+    width:auto;
+	vertical-align:middle;
+	
+
+	margin-left:20%;
+	margin-right:20%;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	border-radius: 150px;
+    text-align: center;
+	color: #767676;
+	font-size: 0.9em;
+	border-style: solid;
+	border-color: #000;
+	border-width: 1px;
+	z-index: -1;
+
+}
+
+
+ #footer
+	{
+	background: url('../gfx/line.png')no-repeat center;
+
+	width:auto;
+	max-widht: 800px;
+	height:auto;	
+    list-style: none;
+	text-align:center;
+	position:relative;
+	margin-top:-20px;
+	vertical-align: top;
+	z-index:5;
+	top: -20px;
+	}
+
+#footer div
+ {
+    display: inline-block;
+    margin-right:5px;
+    height:100px;
+    width:auto;
+	top:-30px;
+	position: relative;
+
+}
+
+
+
+.white {
+fill: #FFF;
+}
+
+.red {
+fill: #F30;
+}
+
+.orange {
+fill: #F90;
+}
+
+.green {
+fill: #3F0;
+}
+
+
+
+.area_101
+{
+	position:relative;
+	top:-558px;
+	left: -87px;
+	}
+
+.area_102 {
+	position:relative;
+	top:-702px;
+	left: 168px;
+}
+
+.area_103 {
+	position:relative;
+	top: -842px;
+	left: 1px;
+	z-index: 18;
+}
+
+.area_104 {
+	position:relative;
+	top:-844px;
+	left: -237px;
+}
+
+.area_105 {
+	position:relative;
+	top:-884px;
+	left: 168px;
+}
+
+.area_106 {
+	position:relative;
+	top:-923px;
+	left: -225px;
+}
+
+.area_107 {
+	position:relative;
+	top:-962px;
+	left: -180px;
+}
+
+.area_108 {
+	position:relative;
+	top:-1002px;
+	left: -138px;
+}
+
+.area_109 {
+	position:relative;
+	top:-1041px;
+	left: -95px;
+}
+
+.area_110 {
+	position:relative;
+	top:-1059px;
+	left: -24px;
+}
+
+.area_111 {
+	position:relative;
+	top:-1116px;
+	left: 1px;
+}
+
+.area_112 {
+	position:relative;
+	top:-1168px;
+	left: 27px;
+}
+
+
+.area_113 {
+	position:relative;
+	top:-1245px;
+	left: 112px;
+	}
+
+.area_114 {
+	position:relative;
+	top:-1281px;
+	left: -167px;
+}
+
+.area_115 {
+	position:relative;
+	top:-1350px;
+	left: -9px;
+}
+
+.area_116 {
+	position:relative;
+	top:-1403px;
+	left: 167px;
+}
+
+.area_117 {
+	position:relative;
+	top:-1430px;
+	left:-32px;
+}
+
+.area_118 {
+	position:relative;
+	top:-1450px;
+	left:26px;
+}
+
+.area_119 {
+	position:relative;
+	top:-1478px;
+	left:139px;
+}
+
+.area_120 {
+	position:relative;
+	top:-1483px;
+	left:-80px;
+}
+
+.area_121 {
+	position:relative;
+	top:-1503px;
+	left:73px;
+}
+
+.area_122 {
+	position:relative;
+	top:-1522px;
+	left:-2px;
+}
+
+.area_123 {
+	position:relative;
+	top:-1549px;
+	left:-80px;
+}
+
+.area_124 {
+	position:relative;
+	top:-1585px;
+	left:-39px;
+}
+
+.area_125 {
+	position:relative;
+	top:-1625px;
+	left:35px;
+}
+
+.area_126 {
+	position:relative;
+	top:-1648px;
+	left:73px;
+}
+
+.numbers {
+	position:relative;
+	top: -2260px;
+	z-index:19;
+}
+
+.blank_layer {
+	position:relative;
+	top:-2881px;
+	left:0px;
+	z-index: 200;
+}
+
+.marks {
+	position:relative;
+	top: -620px;
+	z-index:19;
+}
